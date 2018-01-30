@@ -1,0 +1,30 @@
+*{
+  padding:0;
+  margin:0;
+}
+ul,li{
+  list-style:none;
+}
+.app .logo{
+  color:white;
+}
+.app{
+  height:95%;
+}
+.ant-layout.ant-layout-has-sider,.ant-layout-sider{
+  height: 100%;
+}
+.trigger::before{
+  font-size:20px;
+  margin-left:10px;
+  cursor:pointer;
+}
+.github{
+ font-size:30px;
+ margin:10px;
+ animation: App-logo-spin infinite 20s linear;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

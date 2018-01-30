@@ -1,0 +1,64 @@
+.todo{
+    h2{
+       margin:0 auto;
+       text-align: center;
+    }
+    .main{
+        .filter{
+            font-size:20px;
+            font-weight: bold;
+            text-align: center;
+            ul{
+                margin:0;
+                display: flex;
+                li{
+                    flex:1;
+                    cursor:pointer;
+                    &.active{
+                        background-color:yellowgreen;
+                    }
+                }
+            }
+        }
+        hr{
+            color:#fff;
+            margin:0 0 20px 0;
+        }
+        width: 700px;
+        margin:0 auto;
+        padding:30px;
+        border:1px solid #eee;
+        border-radius:5px;
+        .add{
+            .ant-input{
+                width: 500px;
+                margin-bottom:30px;
+                margin-right:30px;
+            }
+        }
+        ul.itemList{
+            height:350px;
+            overflow-y: auto;
+            li{
+                position: relative;
+                .ant-checkbox-wrapper{
+                    line-height: 50px;
+                    font-size:16px;
+                    .ant-checkbox{
+                        margin-right:10px;
+                    }
+                }
+                button{
+                   float: right;
+                   margin-right:30px;
+                }
+                input{
+                    width: 50%;
+                    position: absolute;
+                    top:14px;
+                    left:32px;
+                }
+            }
+        }
+    }
+}
