@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import wangEditor from 'wangeditor';
+import './editor.less';
 
 export default class Editor extends Component {
   componentDidMount(){
